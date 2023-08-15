@@ -1,6 +1,3 @@
-Trabajo Final Curso Coderhouse --> reactJs.
-Profesor: Diego Jofre.
-
 Librería README.TXT
 
 E-Commerce basado en una Librería con venta On-Line.
@@ -13,8 +10,5 @@ La paleta de colores utilizada fue la siguiente: https://coolors.co/b80c09-6b2b0
 
 Adicionalmente se incluyó la librería de Toastify para reactJs, con el objetivo de mostrar cuando se agrega un producto al Carrito.
 
-Gracias por leer!
 
-Germán Marera
-Abril 2023
-https://github.com/gmarera
+Leonardo Pedernera
