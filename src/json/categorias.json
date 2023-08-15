@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "ficción"
+  },
+  {
+    "id": 2,
+    "name": "juvenil"
+  },
+  {
+    "id": 3,
+    "name": "salud"
+  },
+  {
+    "id": 4,
+    "name": "humanidades"
+  },
+  {
+    "id": 5,
+    "name": "infantil"
+  },
+  {
+    "id": 6,
+    "name": "deportes"
+  },
+  {
+    "id": 7,
+    "name": "lenguas"
+  },
+  {
+    "id": 8,
+    "name": "tiempo libre"
+  },
+  {
+    "id": 9,
+    "name": "ciencias"
+  }
+]

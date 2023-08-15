@@ -1,0 +1,54 @@
+$titulo: #b80c09;
+$autor: #6b2b06;
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.imagen {
+  margin-left: 200px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: left;
+  color: $titulo;
+}
+
+.autor {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: left;
+  color: $autor;
+}
+
+.precio {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: medium;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: green;
+    color: white;
+  }
+}

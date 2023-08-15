@@ -1,0 +1,66 @@
+$negro: #141301;
+$marron: #6b2b06;
+$rojo: #b80c09;
+$gris: #b7b5b3;
+$grisclaro: #e5e7e6;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 0;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.compra {
+  border: 2px solid $gris;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px auto 0;
+  margin-left: 20px;
+}
+
+.title {
+  color: $negro;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detalletitle {
+  color: $rojo;
+  font-size: 20px;
+}
+
+.detalleprecio {
+  color: $rojo;
+  text-align: end;
+  margin-top: 30px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.ok {
+  font-size: 20px;
+  color: blue;
+}
+
+.button {
+  width: 10%;
+  padding: 8px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.id {
+  color: red;
+  font-weight: bolder;
+}

@@ -1,0 +1,61 @@
+$fondocard: #e5e7e6;
+$fondocard2: #6b2b06;
+
+.libros_lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 0rem;
+  padding: 1rem;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.libro_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  background: $fondocard;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: sepia(91%);
+  -webkit-backdrop-filter: sepia(90%);
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.9);
+  &:hover {
+    background: $fondocard2;
+    color: white;
+  }
+}
+
+.card_img {
+  width: 80%;
+  height: 100%;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+.card_titulo {
+  font-size: 1.3rem;
+  margin: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card_precio {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cargando {
+  margin-top: 20px;
+  margin-left: 20px;
+}
